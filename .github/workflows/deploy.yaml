@@ -28,7 +28,7 @@ jobs:
         shell: bash
 
       - name: Build with Gradle
-        run: chmod +x ./gradlew clean build
+        run: ./gradlew build
         shell: bash
 
       - name: Make zip file

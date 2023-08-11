@@ -9,8 +9,7 @@ env:
   S3_BUCKET_NAME: s3-test-moon
   CODE_DEPLOY_APPLICATION_NAME: CODE-DEPLOY-TEST
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: CODE-DEPLOY-GROUP
-
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
